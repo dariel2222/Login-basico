@@ -165,11 +165,6 @@ body{
     color: #8b8b8b;
 }
 
-.section-inputs{
-    display:flex;
-    gap: 10px;
-    width: 100%;
-}
 
 form{
     display: flex;
@@ -188,15 +183,6 @@ label span{
     font-weight: 700;
 }
 
-.section-inputs label input{
-    width: 80%;
-    background-color: #e7e7ec;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-    outline: none;
-    font-size: 14pt;
-}
 
 label input{
     width: 90%;
