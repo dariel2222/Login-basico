@@ -30,140 +30,6 @@ body{
     font-size: 35pt;
 }
 
-.buttons{
-    align-self: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-}
-
-.google-btn{
-    background-color: #1A73E8;
-    border: none;
-    border-radius: 5px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 2px;
-    box-shadow: 0 0 2.5px #0bf532, 0 0 10px #0bf532, 0 0 20px #0bf532;
-    transition: box-shadow 0.3s ease, color 0.3s ease;
-}
-
-
-.google-btn:hover{
-    box-shadow: 0 0 5px #0bf532, 0 0 15px #0bf532, 0 0 30px #0bf532;
-    cursor:pointer;
-}
-
-.google-btn picture{
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.google-btn picture img{
-    width: 100%;
-}
-.google-btn span{
-    color:white;
-    padding: 15px;
-    text-align: center;
-}
-
-.facebook-btn{
-    background-color: rgb(44, 182, 187);
-    border: none;
-    border-radius: 5px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 2px;
-    box-shadow: 0 0 2.5px #6e01d4, 0 0 10px #6e01d4, 0 0 20px #6e01d4;
-    transition: box-shadow 0.3s ease, color 0.3s ease;
-}
-
-.facebook-btn:hover{
-    box-shadow: 0 0 5px #6e01d4, 0 0 15px #6e01d4, 0 0 30px #6e01d4;
-    cursor: pointer;
-}
-
-.facebook-btn picture{
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.facebook-btn picture img{
-    width: 100%;
-}
-
-.facebook-btn span{
-    color: white;
-    padding: 15px;
-}
-
-.twitter-btn{
-    background-color: #3a3939;
-    border: none;
-    border-radius: 5px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    padding: 2px;
-    box-shadow: 0 0 2.5px #c40000, 0 0 10px #c40000, 0 0 20px #c40000;
-    transition: box-shadow 0.3s ease, color 0.3s ease;
-}
-
-.twitter-btn:hover{
-    box-shadow: 0 0 5px #c40000, 0 0 15px #c40000, 0 0 30px #c40000;
-    cursor:pointer
-}
-
-.twitter-btn picture{
-    width: 35px;
-    height: 35px;
-    background-color: rgb(160, 151, 151);
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.twitter-btn picture img{
-    width: 100%;
-}
-
-.twitter-btn span{
-    color:white;
-    padding: 15px;
-}
-
-.separator{
-    display: flex;
-    width: 100%;
-    gap: 15px;
-}
-
-.separator hr{
-    flex-grow: 1;
-    border: none;
-    border-top: 1px solid #ccc;
-}
-
-.separator span{
-    color: #8b8b8b;
-}
-
-
 form{
     display: flex;
     flex-direction: column;
@@ -179,8 +45,8 @@ label{
 
 label span{
     font-weight: 700;
+    color : #FF00FF
 }
-
 
 label input{
     width: 90%;
@@ -193,7 +59,6 @@ label input{
     transition: background-color 0.2s border 0.2s;
     color: white;
 }
-
 
 label input:hover{
     background-color: #00253a;
@@ -225,19 +90,6 @@ label input:focus{
     color: #FFFFFF;
 }
 
-
-span{
-    color : #FF00FF
-}
-
-.link-login span{
-    color: #00F5FF;
-}
-
-.link-login p{
-    color: #005a8f;
-}
-
 .link-login{
     text-decoration: none;
     transition: text-shadow 0.3s ease, color 0.3s ease;
@@ -249,3 +101,145 @@ span{
     
     
 }
+
+.link-login span{
+    color: #00F5FF;
+}
+
+.link-login p{
+    color: #005a8f;
+}
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span{
+    color: #8b8b8b;
+}
+
+.buttons{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.google-btn{
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    box-shadow: 0 0 2.5px #0bf532, 0 0 10px #0bf532, 0 0 20px #0bf532;
+    transition: box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.google-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img{
+    width: 100%;
+}
+
+.google-btn span{
+    color:white;
+    padding: 15px;
+    text-align: center;
+}
+
+.google-btn:hover{
+    box-shadow: 0 0 5px #0bf532, 0 0 15px #0bf532, 0 0 30px #0bf532;
+    cursor:pointer;
+}
+
+.facebook-btn{
+    background-color: rgb(44, 182, 187);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    box-shadow: 0 0 2.5px #6e01d4, 0 0 10px #6e01d4, 0 0 20px #6e01d4;
+    transition: box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.facebook-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook-btn picture img{
+    width: 100%;
+}
+
+.facebook-btn span{
+    color: white;
+    padding: 15px;
+}
+
+.facebook-btn:hover{
+    box-shadow: 0 0 5px #6e01d4, 0 0 15px #6e01d4, 0 0 30px #6e01d4;
+    cursor: pointer;
+}
+
+.twitter-btn{
+    background-color: #3a3939;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    box-shadow: 0 0 2.5px #c40000, 0 0 10px #c40000, 0 0 20px #c40000;
+    transition: box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.twitter-btn picture{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(160, 151, 151);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-btn picture img{
+    width: 100%;
+}
+
+.twitter-btn span{
+    color:white;
+    padding: 15px;
+}
+
+.twitter-btn:hover{
+    box-shadow: 0 0 5px #c40000, 0 0 15px #c40000, 0 0 30px #c40000;
+    cursor:pointer
+}
+
