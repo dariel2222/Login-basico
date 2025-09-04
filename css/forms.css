@@ -79,3 +79,16 @@ label input:focus{
 .separator span{
     color: #8b8b8b;
 }
+
+
+
+.text-link{
+    color:#FF00FF;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.text-link:hover{
+    text-shadow: 0 0 5px #6e00a1, 0 0 10px #6e00a1;
+    color: #FFFFFF;
+    cursor: pointer;
+}
