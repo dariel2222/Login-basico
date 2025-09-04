@@ -52,22 +52,16 @@ label input:focus{
 
 .link-login{
     text-decoration: none;
+}
+
+.link-login-text{
     transition: text-shadow 0.3s ease, color 0.3s ease;
-}
-
-.link-login:hover{
-    text-shadow: 0 0 5px #6e00a1, 0 0 10px #6e00a1;
-    color: #FFFFFF;
-    
-    
-}
-
-.link-login span{
     color: #00F5FF;
 }
 
-.link-login p{
-    color: #005a8f;
+.link-login-text:hover{
+    text-shadow: 0 0 5px #6e00a1, 0 0 10px #6e00a1;
+    color: #FFFFFF;  
 }
 
 .separator{
