@@ -1,0 +1,27 @@
+/* importacion de la fuente */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu-Bold.ttf),
+    url(../fonts/Ubuntu-Regular.ttf);
+}
+
+/* Declaracion de la fuente */
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Titulos Principales */
+.title{
+    color: #00F5FF;
+    font-size: 35pt;
+    align-self: center;
+}
+
+
+/* Estilo del cuerpo */
+body{
+    background: linear-gradient(#0D0D0D , #1A0033);
+    
+}
+
+
